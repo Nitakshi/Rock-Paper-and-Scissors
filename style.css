@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem; 
+    /* rem: relative size with respect to the size of the root element */
+    line-height: 5rem;
+    text-align: center;
+}
+.choice{
+   height: 160px;
+   width: 160px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#choices{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.choice:hover{
+    background-color: black;
+    opacity: 0.5; 
+    /* If we click on any choices */
+    cursor: pointer;
+}
+.scoreboard{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     margin-top: 3rem;
+     gap: 10rem;
+}
+#comp-score,#player-score{
+        font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #081b31;
+    color:#fff ;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#restart{
+      padding: 0.5rem;
+      margin: 15px;
+      text-align: center;
+      border-radius: 3rem;
+      border: 2px solid black;
+      background-color: black;
+      color: white;
+      
+}
+#restart:active{
+    transform: scale(1.1);
+}
